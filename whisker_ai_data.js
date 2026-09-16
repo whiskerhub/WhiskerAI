@@ -3,6 +3,100 @@ const whiskerAIData = [
     "instruction": "WhiskerHub nedir?",
     "output": "WhiskerHub, bir geliştiricinin oluşturduğu kedi temalı web siteleri ve dijital projelerin genel merkezi ve marka adıdır. WhiskerSearch, WhiskerShop, WhiskerCalc, Cat-Desktop ve WhiskerTerminal gibi farklı projeler WhiskerHub çatısı altında yer alır. Kısacası WhiskerHub, tek bir web sitesinden ziyade, bir geliştiricinin oluşturduğu kedi temalı dijital projeleri bir araya getiren bir markadır."
   },
+  {"instruction":"WhiskerAirport nedir?","output":"WhiskerAirport, WhiskerHub'ın kedi temalı havaalanı deneyimidir. Bilet alma, bavul ağırlığını kontrol etme ve uçuşla ilgili mini oyun gibi aşamalardan oluşan eğlenceli bir projedir."}
+{"instruction":"WhiskerAirport ne işe yarıyor?","output":"WhiskerAirport, gerçek bir havalimanı hizmeti yerine kedi temalı ve eğlenceli bir havaalanı deneyimi sunmak için hazırlanmıştır."}
+{"instruction":"WhiskerAirport gerçek bir havalimanı mı?","output":"Hayır. WhiskerAirport, WhiskerHub tarafından eğlence amacıyla oluşturulmuş kurgusal bir havaalanı projesidir."}
+{"instruction":"WhiskerAirport'ta gerçekten uçabilir miyim?","output":"Hayır. WhiskerAirport gerçek bir uçuş hizmeti sunmaz. Uçuş deneyimi proje içindeki kurgusal ve oynanabilir bir deneyimdir."}
+{"instruction":"WhiskerAirport'ta bilet alabiliyor muyum?","output":"Evet. WhiskerAirport içinde kurgusal bir uçuş için bilet alma deneyimi bulunur."}
+{"instruction":"WhiskerAirport'taki bilet gerçek mi?","output":"Hayır. WhiskerAirport'taki bilet tamamen proje içindeki kurgusal bir bilettir."}
+{"instruction":"WhiskerAirport'ta bavulumu tartabiliyor muyum?","output":"Evet. WhiskerAirport'ta uçuş öncesi bavul ağırlığını kontrol ettiğin bir aşama bulunur."}
+{"instruction":"WhiskerAirport'ta neden bavul tartıyorum?","output":"Bavul tartma bölümü, gerçek havaalanlarındaki bagaj kontrolü deneyiminin WhiskerHub'a uyarlanmış eğlenceli bir parçasıdır."}
+{"instruction":"WhiskerAirport'ta uçuş oyunu var mı?","output":"Evet. WhiskerAirport'ta uçuş deneyiminin bir parçası olarak oynanabilen bir mini oyun bulunur."}
+{"instruction":"WhiskerAirport'ta kaç farklı uçak var?","output":"WhiskerAirport'ta 4 farklı uçak bulunur: Klasik Kanat, Kedi Kulaklı Yıldız, Kartal Kanat ve Roket Mırnav."}
+{"instruction":"WhiskerAirport'ta hangi uçaklar var?","output":"WhiskerAirport'ta Klasik Kanat, Kedi Kulaklı Yıldız, Kartal Kanat ve Roket Mırnav bulunur."}
+{"instruction":"Başlangıçta hangi uçakla uçuyorum?","output":"Başlangıçta Klasik Kanat kullanılabilir ve bu uçak takılı olarak gelir."}
+{"instruction":"Klasik Kanat ücretsiz mi?","output":"Evet. Klasik Kanat başlangıçta takılı olan uçaktır ve satın alınması gerekmez."}
+{"instruction":"Klasik Kanat'ı satın almam gerekiyor mu?","output":"Hayır. Klasik Kanat başlangıçta takılı olan uçaktır."}
+{"instruction":"Kedi Kulaklı Yıldız kaç para?","output":"Kedi Kulaklı Yıldız 250 🪙 kedi parasıdır."}
+{"instruction":"Kedi Kulaklı Yıldız nasıl bir uçak?","output":"Kedi Kulaklı Yıldız, burnunda kedi suratı bulunan şirin bir jet modelidir."}
+{"instruction":"Kartal Kanat kaç para?","output":"Kartal Kanat 400 🪙 kedi parasıdır."}
+{"instruction":"Kartal Kanat nasıl bir uçak?","output":"Kartal Kanat, sivri kanatlı ve gaga burunlu yırtıcı bir uçak modelidir."}
+{"instruction":"Roket Mırnav kaç para?","output":"Roket Mırnav 600 🪙 kedi parasıdır."}
+{"instruction":"Roket Mırnav nasıl bir uçak?","output":"Roket Mırnav, kedi suratlı ve alev kuyruklu roket-uçak tasarımına sahip özel bir uçaktır."}
+{"instruction":"WhiskerAirport'taki en pahalı uçak hangisi?","output":"WhiskerAirport'taki en pahalı uçak Roket Mırnav'dır ve fiyatı 600 🪙 kedi parasıdır."}
+{"instruction":"WhiskerAirport'taki en ucuz satın alınabilir uçak hangisi?","output":"Satın alınabilen uçaklar arasında en düşük fiyatlı olan Kedi Kulaklı Yıldız'dır ve fiyatı 250 🪙 kedi parasıdır."}
+{"instruction":"WhiskerAirport'ta uçak satın alabiliyor muyum?","output":"Evet. Klasik Kanat dışında Kedi Kulaklı Yıldız, Kartal Kanat ve Roket Mırnav farklı kedi parası miktarları karşılığında satın alınabilir."}
+{"instruction":"WhiskerAirport'ta uçak değiştirebilir miyim?","output":"Evet. Satın aldığın uçaklardan birini seçerek kullandığın uçak modelini değiştirebilirsin."}
+{"instruction":"WhiskerAirport'ta uçakların fiyatları aynı mı?","output":"Hayır. Uçakların fiyatları farklıdır. Kedi Kulaklı Yıldız 250, Kartal Kanat 400 ve Roket Mırnav 600 🪙 kedi parasıdır."}
+{"instruction":"WhiskerAirport'taki uçakların hepsi kedi temalı mı?","output":"Uçakların tasarımları farklıdır. Kedi Kulaklı Yıldız ve Roket Mırnav doğrudan kedi temalı ayrıntılara sahipken Kartal Kanat farklı bir yırtıcı kuş tasarımına sahiptir."}
+
+{"instruction":"WhiskerStagram nedir?","output":"WhiskerStagram, Instagram'ın WhiskerHub evrenine uyarlanmış kurgusal bir versiyonudur. Kullanıcı bir profil oluşturur ve üç farklı yayın aşamasındaki performansına göre beğeni ve takipçi kazanır."}
+{"instruction":"WhiskerStagram'da hesap açabiliyor muyum?","output":"Evet. WhiskerStagram'a girerken bir kullanıcı adı ve profil fotoğrafı belirleyerek kendine bir profil oluşturabilirsin."}
+{"instruction":"WhiskerStagram hesabım gerçek mi?","output":"Hayır. WhiskerStagram'daki hesap tamamen proje içindeki kurgusal bir profildir."}
+{"instruction":"WhiskerStagram hesabım kaydediliyor mu?","output":"Hayır. WhiskerStagram'da oluşturduğun profil cihazında kalıcı olarak saklanmaz."}
+{"instruction":"WhiskerStagram'da profil fotoğrafı seçebilir miyim?","output":"Evet. Profil oluştururken bir profil fotoğrafı belirleyebilirsin."}
+{"instruction":"WhiskerStagram'da kullanıcı adımı belirleyebilir miyim?","output":"Evet. Profil oluştururken kendi kullanıcı adını belirleyebilirsin."}
+{"instruction":"WhiskerStagram'da ne yapıyorum?","output":"WhiskerStagram'da üç farklı yayın aşamasına katılıyorsun. Yemek yapıyor, kedi çiziyor ve bir Reels videosu düzenliyorsun. Yaptığın seçimlerin uyumuna göre beğeni kazanıyorsun."}
+{"instruction":"WhiskerStagram'da kaç tane yayın var?","output":"WhiskerStagram'da üç farklı yayın aşaması bulunur: yemek yapma, kedi çizme ve Reels düzenleme."}
+{"instruction":"WhiskerStagram'daki ilk yayında ne yapıyorum?","output":"İlk yayında bir yemek hazırlıyorsun. Sana verilen ipuçlarını kullanarak malzemeleri seçiyor, doğruyor ve pişiriyorsun. Yemeğin olması gereken sonuca ne kadar yakınsa o kadar fazla beğeni kazanıyorsun."}
+{"instruction":"WhiskerStagram'da yemek yapma bölümü nasıl çalışıyor?","output":"Önce verilen ipuçlarını okuyarak uygun malzemeleri seçiyorsun. Ardından malzemeleri doğruyor ve yemeği pişiriyorsun. Sonucun hedefe yakınlığı aldığın beğeniyi etkiliyor."}
+{"instruction":"Yemek yaparken neden ipuçları veriliyor?","output":"İpuçları hazırlaman gereken yemeğin özelliklerini anlamana yardımcı oluyor. Bu ipuçlarını kullanarak uygun malzemeleri ve hazırlama şeklini belirliyorsun."}
+{"instruction":"WhiskerStagram'da yemekleri rastgele mi yapıyorum?","output":"Hayır. Yemek hazırlarken sana verilen ipuçlarını kullanarak doğru malzemeleri ve hazırlama şeklini bulmaya çalışıyorsun."}
+{"instruction":"Yemeği doğru yaparsam daha fazla like mı alıyorum?","output":"Evet. Hazırladığın yemek olması gereken sonuca ne kadar yakınsa daha fazla beğeni kazanırsın."}
+{"instruction":"WhiskerStagram'daki ikinci yayında ne yapıyorum?","output":"İkinci yayında bir kedi çiziyorsun. Daha fazla renk kullanmak ve kulak, göz ve kuyruk gibi kedi özelliklerini eklemek daha fazla beğeni kazanmanı sağlar."}
+{"instruction":"Kedi çiziminde ne kadar çok renk kullanırsam o kadar mı iyi?","output":"Daha fazla renk kullanmak ikinci yayında daha fazla beğeni kazanmanı sağlayabilir."}
+{"instruction":"Kedi çizerken hangi özellikleri ekleyebilirim?","output":"Kedi çiziminde kulak, göz ve kuyruk gibi kedi özelliklerini ekleyebilirsin."}
+{"instruction":"Kedi çiziminde kulak çizmek önemli mi?","output":"Evet. Kulak, göz ve kuyruk gibi kedi özelliklerini eklemek ikinci yayında aldığın beğeniyi artırabilir."}
+{"instruction":"WhiskerStagram'daki üçüncü yayında ne yapıyorum?","output":"Üçüncü yayında bir Reels videosu düzenliyorsun. Sana verilen hikâyeye göre içerikleri sıralıyor, efektleri ve etiketleri seçiyorsun."}
+{"instruction":"WhiskerStagram Reels bölümünde ne yapılıyor?","output":"Verilen hikâyeye uygun bir sıralama yapıyor, ardından hikâyeyle uyumlu efekt ve etiketleri seçiyorsun."}
+{"instruction":"Reels'te videoları hangi sıraya koymalıyım?","output":"Videoları sana verilen hikâyeye en uygun olacak şekilde sıralamalısın. Sıralamanın hikâyeyle uyumu aldığın beğeniyi etkiler."}
+{"instruction":"Reels'te efekt seçmek önemli mi?","output":"Evet. Seçtiğin efektlerin verilen hikâyeyle uyumu aldığın beğeni miktarını etkiler."}
+{"instruction":"Reels'te etiket seçmek önemli mi?","output":"Evet. Seçtiğin etiketlerin hikâyeyle uyumu üçüncü yayındaki beğeni miktarını etkiler."}
+{"instruction":"WhiskerStagram'da beğeniler nasıl belirleniyor?","output":"Beğeniler her yayın aşamasındaki performansına göre belirlenir. Yemeğin hedefe yakınlığı, kedi çizimindeki ayrıntılar ve Reels düzenlemesinin hikâyeyle uyumu gibi seçimler beğeniyi etkiler."}
+{"instruction":"Üç yayındaki beğeniler ne işe yarıyor?","output":"Üç yayında kazandığın beğenilerin ortalaması, WhiskerStagram'daki seviyeni ve takipçi sayını belirlemek için kullanılır."}
+{"instruction":"WhiskerStagram'da seviyemi ne belirliyor?","output":"Üç farklı yayında kazandığın beğenilerin ortalaması seviyeni belirler."}
+{"instruction":"WhiskerStagram'da hangi seviyeler var?","output":"WhiskerStagram'da yeni başlayan, fenomen ve viral gibi seviyeler bulunur."}
+{"instruction":"WhiskerStagram'da viral olabilir miyim?","output":"Evet. Üç yayındaki beğeni ortalaman yeterince yüksek olduğunda viral seviyesine ulaşabilirsin."}
+{"instruction":"WhiskerStagram'da takipçi kazanıyor muyum?","output":"Evet. Üç yayındaki performansına göre bir seviyeye yerleştirilir ve buna göre takipçi sayısı kazanırsın."}
+{"instruction":"Takipçi sayım nasıl belirleniyor?","output":"Üç yayındaki beğenilerinin ortalamasına göre ulaştığın seviye belirlenir ve bu seviyeye bağlı olarak takipçi sayın verilir."}
+{"instruction":"Üç yayından sadece birinde iyi performans gösterirsem ne olur?","output":"Son seviyen yalnızca tek bir yayına göre belirlenmez. Üç yayında kazandığın beğenilerin ortalaması dikkate alınır."}
+
+{"instruction":"WhiskerHub'da hangi projeler var?","output":"WhiskerHub'da WhiskerSearch, WhiskerShop, WhiskerCalc, theLongestCat, WhiskerTerminal, Cat-Desktop, WhiskerAirport, WhiskerStagram ve WhiskerAI gibi farklı kedi temalı projeler bulunur."}
+{"instruction":"WhiskerHub'daki bütün projeler oyun mu?","output":"Hayır. WhiskerHub'daki projelerin hepsi oyun değildir. Bazıları interaktif deneyim, araç, kurgusal hizmet veya farklı bir web projesi olarak tasarlanmıştır."}
+{"instruction":"WhiskerHub'daki projeler gerçek mi?","output":"WhiskerHub'daki projeler gerçek web projeleridir ancak sundukları hizmetlerin veya mağaza, havaalanı ve sosyal medya gibi konseptlerin bir kısmı kurgusaldır ve eğlence amacıyla tasarlanmıştır."}
+{"instruction":"WhiskerHub'daki alışveriş sitesi gerçek mi?","output":"Hayır. WhiskerShop kurgusal bir mağaza deneyimidir. Ürünler gerçek bir mağazadan satın alınmaz."}
+{"instruction":"WhiskerHub'da gerçek para kullanılıyor mu?","output":"WhiskerHub projelerindeki kedi parası gibi para birimleri proje içi ve kurgusaldır; gerçek para değildir."}
+{"instruction":"WhiskerHub'daki oyunları telefondan oynayabilir miyim?","output":"WhiskerHub projeleri web tabanlıdır. Desteklenen projeler mobil cihazlardan da kullanılabilir."}
+{"instruction":"WhiskerHub'daki projeler ücretsiz mi?","output":"WhiskerHub projeleri web üzerinden deneyimlenmek üzere hazırlanmıştır. Proje içindeki kedi parası ve satın alma mekanikleri gerçek bir ödeme sistemi değildir."}
+{"instruction":"WhiskerHub'daki projelerde gizli şeyler var mı?","output":"Bazı WhiskerHub projelerinde gizli mekanikler, sürprizler veya Easter egg'ler bulunabilir."}
+{"instruction":"WhiskerHub'daki projeler neden kedi temalı?","output":"Kedi teması WhiskerHub'dan önce başlayan projelerden gelmiştir. Zamanla bu tema diğer projelere de taşınmış ve WhiskerHub'ın genel marka kimliğine dönüşmüştür."}
+{"instruction":"WhiskerHub'ın ilk projesi neydi?","output":"WhiskerHub'ın ilk projesi WhiskerSearch'tür. Marka başlangıçta yalnızca WhiskerSearch projesinden oluşuyordu."}
+{"instruction":"WhiskerSearch ile WhiskerHub aynı şey mi?","output":"Hayır. WhiskerSearch, WhiskerHub'ın ilk projesidir. WhiskerHub ise WhiskerSearch'ün yanı sıra farklı projeleri de kapsayan genel markadır."}
+{"instruction":"WhiskerHub'ın adı nereden geliyor?","output":"WhiskerHub adı, farklı kedi temalı projeleri tek bir marka altında toplamak amacıyla seçilmiştir. 'Hub' kelimesi projelerin ortak merkezi olmasını ifade eder."}
+{"instruction":"WhiskerHub'ı kim yaptı?","output":"WhiskerHub, bağımsız bir geliştirici tarafından oluşturulan kişisel bir projedir."}
+{"instruction":"WhiskerHub neden yapıldı?","output":"WhiskerHub, farklı fikirleri, web tasarımı çalışmalarını ve kodlama projelerini kedi temalı ortak bir marka altında bir araya getirmek amacıyla geliştirilmiştir."}
+{"instruction":"WhiskerHub'a yeni projeler geliyor mu?","output":"WhiskerHub zaman içinde geliştirilen ve yeni projeler eklenebilen bir proje koleksiyonudur."}
+{"instruction":"WhiskerHub'daki projeler aynı kişi tarafından mı yapılıyor?","output":"Evet. WhiskerHub'ın arkasındaki projeler aynı bağımsız geliştiricinin farklı fikirleri, tasarım çalışmaları ve kodlama denemeleriyle geliştirilmiştir."}
+{"instruction":"WhiskerHub ile WhiskerAI arasındaki fark ne?","output":"WhiskerHub farklı kedi temalı web projelerinin genel markasıdır. WhiskerAI ise WhiskerHub ve projeleri hakkında bilgi verebilen yapay zekâ projesidir."}
+{"instruction":"WhiskerAI bütün WhiskerHub projelerini biliyor mu?","output":"WhiskerAI, veri tabanına eklenen WhiskerHub projeleri ve özellikleri hakkında bilgi verebilir. Yeni veya veri tabanında bulunmayan bilgiler için doğru cevap veremeyebilir."}
+{"instruction":"WhiskerAI neden WhiskerHub hakkında daha iyi cevap veriyor?","output":"WhiskerAI, özellikle WhiskerHub ve projeleri hakkında bilgi verecek şekilde hazırlanmıştır. Bu nedenle veri tabanında bulunan WhiskerHub konularında daha ayrıntılı cevaplar verebilir."}
+{"instruction":"WhiskerAI internetteki her şeyi biliyor mu?","output":"Hayır. WhiskerAI'nin bilgisi kendi veri tabanındaki içeriklere ve ona öğretilen bilgilere dayanır."}
+{"instruction":"WhiskerAI'nin cevapları nasıl oluşturuluyor?","output":"WhiskerAI, kendisine verilen soru ve cevap verileri üzerinden uygun yanıtları eşleştiren bir sistem olarak çalışır."}
+{"instruction":"WhiskerHub'daki projeler birbirine bağlı mı?","output":"Projeler farklı deneyimler sunsa da aynı WhiskerHub markası altında toplanır. Bazı projeler kendi içlerinde başka WhiskerHub projelerine veya ortak özelliklere gönderme yapabilir."}
+{"instruction":"WhiskerHub'da en eski proje hangisi?","output":"WhiskerHub'ın en eski projesi WhiskerSearch'tür."}
+{"instruction":"WhiskerHub'da oyun oynayabileceğim projeler hangileri?","output":"WhiskerShop, WhiskerAirport ve WhiskerStagram gibi projelerde oynanabilir veya interaktif bölümler bulunur."}
+{"instruction":"WhiskerHub'da hesap açmam gereken projeler var mı?","output":"Bazı projelerde proje deneyiminin parçası olarak profil oluşturma bulunabilir. Örneğin WhiskerStagram'da kullanıcı adı ve profil fotoğrafıyla geçici bir profil oluşturulur."}
+{"instruction":"WhiskerHub'daki ilerlemem kaydediliyor mu?","output":"Projeye göre değişir. Bazı projeler ilerleme veya oyun içi bilgileri cihazda saklayabilirken bazıları geçici bir deneyim sunar."}
+{"instruction":"WhiskerHub'daki projeleri sırayla mı kullanmam gerekiyor?","output":"Hayır. Projeler birbirinden bağımsız deneyimler olarak tasarlanmıştır ve belirli bir sırayla kullanılmaları gerekmez."}
+{"instruction":"WhiskerHub'daki projeler neden bu kadar farklı?","output":"WhiskerHub farklı fikirleri ve web tasarımı denemelerini aynı marka altında toplar. Bu nedenle projeler birbirinden oldukça farklı deneyimler sunabilir."}
+{"instruction":"WhiskerHub'da sadece kedi oyunları mı var?","output":"Hayır. WhiskerHub'da oyunların yanı sıra hesap makinesi, terminal, masaüstü ortamı, arama deneyimi ve yapay zekâ gibi farklı türlerde projeler de bulunur."}
+{"instruction":"WhiskerHub'daki projeler gerçek uygulamaların kopyası mı?","output":"Bazı projeler gerçek dünyadaki hizmet veya uygulama fikirlerinden esinlenmiş kurgusal deneyimlerdir. Amaç gerçek hizmetlerin yerine geçmek değil, bunları eğlenceli ve kedi temalı bir şekilde yeniden yorumlamaktır."}
+{"instruction":"WhiskerHub'daki projelerin amacı ne?","output":"Projelerin ortak amacı farklı fikirleri eğlenceli, interaktif ve kedi temalı web deneyimlerine dönüştürmektir."}
+{"instruction":"WhiskerHub'daki projeler aynı evrende mi?","output":"Projeler aynı WhiskerHub markası altında yer alır ancak çoğunlukla bağımsız deneyimlerdir. Ortak kedi teması ve marka kimliği onları birbirine bağlar."}
+{"instruction":"WhiskerHub'da bir proje diğerinin devamı mı?","output":"Genel olarak projeler bağımsız deneyimlerdir. Aynı WhiskerHub markası altında bulunmaları onları tek bir zorunlu hikâye sırasına bağlamaz."}
+{"instruction":"WhiskerHub'daki projeler zamanla değişiyor mu?","output":"Evet. WhiskerHub projeleri geliştirildikçe yeni özellikler eklenebilir, mevcut özellikler değiştirilebilir veya yeni projeler oluşturulabilir."}
+{"instruction":"WhiskerHub'daki projeler neden aynı isimleri kullanıyor?","output":"WhiskerSearch, WhiskerShop, WhiskerAirport ve WhiskerStagram gibi isimlerdeki 'Whisker' ifadesi, projelerin aynı WhiskerHub markasına ait olduğunu vurgular."}
+{"instruction":"WhiskerHub'da saklı özellikleri nasıl bulabilirim?","output":"Bazı projelerde gizli özellikler ve Easter egg'ler bulunabilir. Projeleri dikkatli incelemek ve farklı etkileşimleri denemek bunları keşfetmene yardımcı olabilir."},
   {
     "instruction": "WhiskerAI nedir?",
     "output": "WhiskerAI, WhiskerHub projelerini tanıtmak amacı ile eğitilmiş bir yapay zekadır."
