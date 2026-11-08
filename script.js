@@ -1248,16 +1248,16 @@ function formatAIText(text) {
     let safeText = escapeHTML(text);
 
     const links = {
-        "https://ayse-create.github.io/WhiskerHub":
+        "https://whiskerhub.github.io/WhiskerHub":
             "🐾 WhiskerHub",
 
-        "https://ayse-create.github.io/WhiskerSearch":
+        "https://whiskerhub.github.io/WhiskerSearch":
             "🔎 WhiskerSearch",
 
-        "https://ayse-create.github.io/WhiskerShop":
+        "https://whiskerhub.github.io/WhiskerShop":
             "🛒 WhiskerShop",
 
-        "https://ayse-create.github.io/WhiskerAI":
+        "https://whiskerhub.github.io/WhiskerAI":
             "🤖 WhiskerAI"
     };
 

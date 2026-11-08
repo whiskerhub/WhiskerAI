@@ -369,7 +369,7 @@ const whiskerAIData = [
   },
   {
     "instruction": "Sıkıldım.",
-    "output": "İstersen biraz eğlenmek için WhiskerHub'ı ziyaret edebilirsin. İşte linki: https://ayse-create.github.io/WhiskerHub."
+    "output": "İstersen biraz eğlenmek için WhiskerHub'ı ziyaret edebilirsin. İşte linki: https://whiskerhub.github.io/WhiskerHub."
   },
   {
     "instruction": "whiskerhub ne ki?",
@@ -549,23 +549,23 @@ const whiskerAIData = [
   },
   {
     "instruction": "WhiskerHub'ın linki nedir?",
-    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://ayse-create.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
+    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://whiskerhub.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
   },
   {
     "instruction": "whiskerhub'a nereden ulaşabilirim?",
-    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://ayse-create.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
+    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://whiskerhub.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
   },
   {
     "instruction": "WhiskerHub'ın web sitesi ne?",
-    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://ayse-create.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
+    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://whiskerhub.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
   },
   {
     "instruction": "whiskerhub'ı nerede bulabilirim?",
-    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://ayse-create.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
+    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://whiskerhub.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
   },
   {
     "instruction": "WhiskerHub'ın adresi ne?",
-    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://ayse-create.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
+    "output": "WhiskerHub'ın projelerini ve mevcut çalışmalarını resmi WhiskerHub web sitesinden keşfedebilirsin: https://whiskerhub.github.io/WhiskerHub/ Burada WhiskerHub çatısı altında bulunan projeler ve bunlara ait bilgiler yer alır."
   },
   {
     "instruction": "WhiskerSearch nedir?",
@@ -2361,35 +2361,35 @@ const whiskerAIData = [
   },
   {
     "instruction": "WhiskerHub'a nereden girebilirim?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub linki nedir?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub'ı nasıl açarım?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub nerede bulunuyor?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub sitesine nasıl ulaşırım?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub ücretsiz mi?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub'ı kullanabilir miyim?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerHub adresi ne?",
-    "output": "WhiskerHub'a https://ayse-create.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
+    "output": "WhiskerHub'a https://whiskerhub.github.io/WhiskerHub adresinden ulaşabilirsin. Tüm projeler web tabanlı olarak çalışır."
   },
   {
     "instruction": "WhiskerSearch nedir?",
