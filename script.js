@@ -1243,43 +1243,79 @@ function containsPhrase(
    HTML FORMAT
    ========================================================= */
 
+
 function formatAIText(text) {
 
     let safeText = escapeHTML(text);
 
     const links = {
-        "https://whiskerhub.github.io/WhiskerHub":
-            "🐾 WhiskerHub",
-
-        "https://whiskerhub.github.io/WhiskerSearch":
-            "🔎 WhiskerSearch",
-
-        "https://whiskerhub.github.io/WhiskerShop":
-            "🛒 WhiskerShop",
-
-        "https://whiskerhub.github.io/WhiskerAI":
-            "🤖 WhiskerAI"
+        "https://whiskerhub.github.io": "🐾 WhiskerHub",
+        "https://whiskerhub.github.io/WhiskerSearch": "🔎 WhiskerSearch",
+        "https://whiskerhub.github.io/WhiskerShop": "🛒 WhiskerShop",
+        "https://whiskerhub.github.io/WhiskerAI": "🤖 WhiskerAI"
     };
 
-    Object.keys(links).forEach(url => {
+    const savedLinks = [];
 
-        const title = links[url];
+    function saveLink(html) {
+        const token = `WHISKERLINKPLACEHOLDER${savedLinks.length}END`;
+        savedLinks.push(html);
+        return token;
+    }
+
+    function createLink(url, label = url) {
+        const safeUrl = url.startsWith("www.") ? "https://" + url : url;
+
+        return '<a class="ai-link" href="' +
+            safeUrl +
+            '" target="_blank" rel="noopener noreferrer">' +
+            label +
+            '</a>';
+    }
+
+    // Özel WhiskerHub bağlantıları
+    Object.keys(links).forEach(url => {
+        const escapedUrl = url.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
         safeText = safeText.replace(
-            url,
-            '<a class="ai-link" href="' +
-            url +
-            '" target="_blank" rel="noopener noreferrer">' +
-            title +
-            '</a>'
+            new RegExp(escapedUrl, "g"),
+            () => saveLink(createLink(url, links[url]))
         );
     });
 
-    return safeText.replace(
-        /\n/g,
-        "<br>"
+    // Markdown bağlantıları
+    safeText = safeText.replace(
+        /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+        (match, label, url) => saveLink(createLink(url, label))
     );
+
+    // Normal URL bağlantıları
+    safeText = safeText.replace(
+        /https?:\/\/[^\s<]+|www\.[^\s<]+/g,
+        match => {
+            const url = match.replace(/[.,!?;:)\]}]+$/g, "");
+            const punctuation = match.slice(url.length);
+
+            if (!url) return match;
+
+            return saveLink(createLink(url)) + punctuation;
+        }
+    );
+
+    // Satır atlamaları
+    safeText = safeText.replace(/\n/g, "<br>");
+
+    // Bağlantıları yerine yerleştir
+    savedLinks.forEach((html, index) => {
+        safeText = safeText.replace(
+            `WHISKERLINKPLACEHOLDER${index}END`,
+            html
+        );
+    });
+
+    return safeText;
 }
+
 
 
 /* =========================================================
