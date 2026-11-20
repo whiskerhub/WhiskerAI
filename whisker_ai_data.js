@@ -5,7 +5,7 @@ const whiskerAIData = [
   },
   {
     "instruction": "😺",
-    "output": "https://whiskerhub.github.io/ :)"
+    "output": "https://whiskerhub.github.io/"
   },
   {
   "instruction": "WhiskerAirport nedir?",
